@@ -1,0 +1,41 @@
+﻿*
+{   
+    margin:0px;
+    padding:0px;    
+}
+body
+{
+    background-color:#12182c;
+    z-index:-2;position:relative;
+    height:1000px;
+    overflow:hidden;
+    }
+#login
+{
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    top: 150px;
+    width: 420px;
+    height: 320px;
+    margin: auto;
+    background-image: url('pictures/alertbg.png');
+    background-repeat: repeat-y;
+}
+#validator
+{
+    height:31px;
+    width:220px;
+    margin: auto;
+    line-height:31px;
+    }
+a{
+    text-decoration:none;
+    color:#ffffff;
+    width:220px;
+    Height:35px;
+    font-weight:bold;
+    line-height:31px;
+    display:inline-block;
+    background-color:#12182c;
+}

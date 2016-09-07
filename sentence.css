@@ -1,0 +1,148 @@
+﻿body
+{
+    margin: 0 auto;
+    padding:0;
+    font: #fff;
+    font-family: 楷体;
+    color: #FFFFFF;
+    width:1280px;
+    background-position: center top; 
+    background-image: url('pictures/bg.png'); 
+    background-repeat: repeat-y;
+}
+#main_content
+{
+    width:1152px;
+    height:auto;
+    margin:auto;
+   }
+#left
+{
+    width:780px;
+    float:left;
+    }
+#sentence
+{
+    height: 280px;
+    margin-top:60px;
+    padding:30px;
+    background-image: url('pictures/opacitybgsent.png');
+    background-repeat: repeat-y;
+}
+#relatedset
+{
+    height:430px;
+    margin:40px 0 20px 0;
+    padding:30px 0 25px 20px ;
+    background-image: url('pictures/opacitybgcol.png');
+    background-repeat: repeat-y;
+    }
+#relset
+{
+    list-style:none;
+    margin-right:15px;
+    }
+#relset li
+{
+    margin-bottom:8px;
+    }
+#relatedsentence
+{
+    margin-top:40px;
+    }
+#relsentcontent
+{ 
+    height:auto;
+    margin-top:20px;
+    padding:20px 50px; 
+    background-image: url('pictures/opacitybgcol.png'); 
+    background-repeat: repeat-y; 
+ }
+.pagenum
+{
+    width:780px;
+    text-align:center;
+    margin:50px 0px;
+    
+    } 
+#right
+{
+    width:320px;
+    float:right;
+    }
+#issue
+{
+    width: 100%;
+    height: 337px;
+}
+#mine
+{
+    margin-left:130px;
+    margin-right:30px;
+    }
+#personal
+{
+    width: 100%;
+    height: 160px;
+    margin-top: 60px;
+    background-image: url('pictures/headbg.png');
+    background-repeat: no-repeat;
+}
+.issuenum
+{
+    width:160px;
+    text-align:center;
+    height:100px;
+    line-height:100px;
+    background-color: #92b2cb;
+    font-family: 楷体;
+    font-size: 17pt;
+    color:Black;
+    font-weight: bold;
+}
+.guess
+{
+    margin-top: 30px;
+    padding: 40px 5px;
+    background-image: url('pictures/opacitybg.png');
+    background-repeat: repeat-y;
+}
+.alertset
+{
+    width: 100%;
+    height: 768px;
+    position: absolute;
+    top:-60px;
+    background-image: url('pictures/alertbg.png');
+    background-repeat: repeat;
+    display:none;
+}
+.alert_content
+{
+    width: 650px;
+    height: 400px;
+    left:400px;
+    top:150px;
+    position:relative;
+    background-image: url('pictures/opacitybg2.png');
+    background-repeat: repeat;
+}
+.add2set
+{
+    padding:20px;
+    font-size:14pt;
+    }
+.add2set a
+{
+    color:#fff;
+    font-size:16pt;
+    }
+.add2setHead
+{
+    width:100%;
+    border-bottom:3px solid white;
+    color: #fff;
+    margin:20px 10px;
+    padding-bottom:20px;
+    font-size:20pt;
+}

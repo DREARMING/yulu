@@ -1,0 +1,122 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterAdmin.master.cs" Inherits="admin_MasterAdmin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <style type="text/css">
+        body
+        {
+            margin:0;
+            padding:0;
+            background-color:#ccc;
+            }
+        #top
+        {
+            background-color:#27a9e3;
+            height:40px;
+            line-height:40px;
+            width:100%;
+            color:White;           
+            text-align:center;
+            vertical-align:middle;
+            }
+        #left
+        {
+              width:300px;
+              height:800px;
+              float:left;
+              
+             }
+        #nav, #nav ul 
+        { 
+            list-style: none; 
+            background: #000; 
+            font-weight: bold; 
+            padding: 0px; 
+            margin: 0px; 
+            border: solid 1px #CCCCCC; 
+            border-bottom: 0px; 
+            width: 150px; 
+            text-align: left; 
+        } 
+
+        #nav a { 
+            display: block; 
+            width: 140px; 
+            color: #fff; 
+            text-decoration: none; 
+            text-align: center; 
+            border-bottom: solid 1px #fff; 
+            text-align: left; 
+            padding-left: 10px; 
+        } 
+        #nav li ul { 
+            position: absolute;
+            visibility:hidden;
+            left:150px; 
+            width: 150px; 
+            font-weight: normal; 
+            margin: 0px; 
+            padding: 0px; 
+        } 
+        #nav li { 
+            line-height: 50px;
+            position: relative; 
+        } 
+        #nav li:hover{ 
+            background: #27a9e3; 
+        } 
+       #nav li:hover ul 
+       {
+           visibility:visible;
+            top: 0px; 
+        }
+        #right
+        {
+            float:right;
+            background-color:#fff;
+            width:75%;
+            } 
+    </style>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+    <div>
+        <div id="top">后台管理系统</div>
+        <div id="left">
+            <ul id="nav">
+                <li><a href="showUser.aspx">用户管理</a> 
+	                <ul> 
+		                <li><a href="showUser.aspx">用户统计</a></li> 
+		                <li><a href="deleteUser.aspx">删除用户</a> </li> 
+	                </ul> 
+                </li>
+                <li><a href="userAmin.aspx">语录统计</a> 
+	                <ul> 
+		                <li><a href="userAmin.aspx">语录分类</a></li> 
+		                <li><a href="userAmin.aspx">删除语录</a> </li>
+	                </ul> 
+                </li>
+                <li><a href="userAmin.aspx">语录集统计</a> 
+	                <ul> 
+		                <li><a href="showSet.aspx">语录集分类</a></li> 
+		                <li><a href="userAmin.aspx">删除语录集</a> </li>
+	                </ul> 
+                </li>                 
+                <li><a href="exit.aspx">退出系统</a></li> 
+            </ul> 
+        </div>
+        <div id="right">
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        
+    </div>
+    </form>
+</body>
+</html>

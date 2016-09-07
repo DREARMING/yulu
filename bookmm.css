@@ -1,0 +1,88 @@
+﻿body
+{
+    margin: 0 auto;
+    padding:0;
+    font: #fff;
+    font-family: 楷体;
+    color: #FFFFFF;
+    width:1280px;
+    background-position: center top; 
+    background-image: url('pictures/bg.png'); 
+    background-repeat: repeat-y;
+}
+#main_content
+{
+    width:1152px;
+    
+    height:auto;
+    margin:auto;
+   }
+#left
+{
+    width:780px;
+    float:left;
+    margin-top:35px;
+    }
+#tab_menu
+{
+    height:32px;
+    width:100%;
+    margin-bottom:25px;
+    line-height:32px;
+}
+#tab_menu a{
+	text-decoration:none;
+	color:#cccccc;
+	width:70px;
+	height:32px;
+	display:block;
+	text-align:right;
+	font-size:16pt;
+	float:right;
+	font-family: 楷体;
+}
+#tab_menu a:hover{
+	color:#fff;
+}
+#tab_box
+{
+    width: 780px;
+    height:800px;
+    padding: 35px 0;
+    margin-bottom:50px;
+    overflow: hidden;
+}
+#tab_box div
+{
+	width:800px;
+	height:800px;
+}
+.pagenum
+{
+    width:780px;
+    font-size:12pt;
+    text-align:center;
+    margin-top:50px;    
+    } 
+#left
+{
+    width:780px;
+    height:50px;
+    float:left;
+    font-size:18pt;
+    margin-top:35px;
+    }
+#right
+{
+    width:320px;
+    float:right;
+    margin-bottom:50px;
+    }
+.booksentence
+{
+    height:auto;
+    margin-top: 30px;
+    padding: 40px 5px;    
+    background-image: url('pictures/opacitybg.png');
+    background-repeat: repeat-y;
+}

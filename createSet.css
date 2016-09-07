@@ -1,0 +1,63 @@
+﻿body
+{
+    margin: 0 auto;
+    padding:0;
+    font-family: 楷体;
+    color: #FFFFFF;
+    width:1280px;
+    background-position: center top; 
+    background-image: url('pictures/bg.png'); 
+    background-repeat: repeat-y;
+}
+#main_content
+{
+    width:1152px;
+    height:auto;
+    margin:auto;
+   }
+#left
+{
+    width:780px;
+    float:left;
+    font-size:18pt;
+    margin-top:35px;
+    }
+#createSet
+{
+    height:770px;
+    margin-top:25px;
+    padding:25px 30px;    
+    background-color:#04223a;
+    }
+#createContent
+{
+    padding:70px 60px;
+    background-image: url('pictures/opacitybgcol.png');
+    background-repeat: repeat-y;
+}
+#alongclass{margin:30px 0 40px 0;}
+#upload
+{
+    background-color:#197FCF;
+    width:100px;
+    height:35px;
+    margin-top:50px;
+    color:White;
+    border:none;
+    font-size:14pt;
+    font-family:楷体;
+    font-weight:bold;    
+    }
+#right
+{
+    width:320px;
+    float:right;
+    }
+.guess
+{
+    height:auto;
+    margin-top: 30px;
+    padding: 40px 5px;
+    background-image: url('pictures/opacitybg.png');
+    background-repeat: repeat-y;
+}
